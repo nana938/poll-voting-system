@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll</title>
+    <link rel="stylesheet" href="poll.css">
+</head>
+<body>
+    <div class="poll-container">
+        <h2>Who is the best player in the world?</h2>
+
+    <div id="poll-options">
+        <input type="radio" name="player" value="maradona" id="maradona">
+        <label for="maradona">Maradona <span class="vote-count" id="maradona-count">1.7k</span></label>
+        <div class="progress-bar"><div class="progress" id="bar-maradona"></div></div></label>
+    </div>
+
+    <div id="poll-options">
+        <input type="radio" name="player" value="messi" id="messi">
+        <label for="messi">Messi <span class="vote-count" id="messi-count">1.7k</span></label>
+        <div class="progress-bar"><div class="progress" id="bar-messi"></div></div></label>
+    </div>
+
+    <div id="poll-options">
+        <input type="radio" name="player" value="ronaldo" id="ronaldo">
+        <label for="ronaldo">C.Ronaldo <span class="vote-count" id="ronaldo-count">1.7k</span></label>
+        <div class="progress-bar"><div class="progress" id="bar-ronaldo"></div></div></label>
+    </div>
+
+    <div id="poll-options">
+        <input type="radio" name="player" value="pele" id="pele">
+        <label for="pele">Pele <span class="vote-count" id="pele-count">1.7k</span></label>
+        <div class="progress-bar"><div class="progress" id="bar-pele"></div></div></label>
+    </div>
+
+    <button id="vote-btn">vote now</button>
+            
+        
+    </div>
+    <script src="poll.js"></script>
+</body>
+</html>
